@@ -1,0 +1,32 @@
+# Ignore build folders
+**/Debug/
+**/Release/
+
+# STM32CubeIDE or Eclipse metadata
+**/.settings/
+**/.metadata/
+**/.cproject
+**/.project
+**/.loadpath
+*.ioc.user
+
+# Compiled objects and binaries
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.bin
+*.a
+*.lst
+*.dep
+*.mk
+
+# Logs and temp
+*.log
+*.bak
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
