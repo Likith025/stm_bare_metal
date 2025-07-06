@@ -1,16 +1,18 @@
-# Ignore build folders
+# 📁 Build folders (should not be committed)
 **/Debug/
 **/Release/
 
-# STM32CubeIDE or Eclipse metadata
+# 🛠 STM32CubeIDE or Eclipse metadata files
 **/.settings/
 **/.metadata/
 **/.cproject
 **/.project
 **/.loadpath
 *.ioc.user
+*.launch
+*.id
 
-# Compiled objects and binaries
+# ⚙️ Compiled objects and binaries
 *.o
 *.d
 *.elf
@@ -22,11 +24,11 @@
 *.dep
 *.mk
 
-# Logs and temp
+# 📝 Logs and temporary files
 *.log
 *.bak
 *.tmp
 
-# OS junk
+# 💻 OS-specific junk
 .DS_Store
 Thumbs.db
